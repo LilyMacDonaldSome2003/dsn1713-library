@@ -13,7 +13,7 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
   </style>
-  <link rel="stylesheet" href="https://kristofferandreasen.github.io/wickedCSS/">
+  <link rel="stylesheet" href="css/wickedcss.min.css">
 </head>
 <body class="bg-light">
   <header>
@@ -53,7 +53,8 @@
             <img src="images/hero-img.jpg" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" loading="lazy">
           </div>
           <div class="col-lg-6">
-            <h1 class="mb-3">Responsive heading for hero section</h1>
+            <h1 class="mb-3 floater">Responsive heading for hero section</h1>
+            <!-- First I downloaded the wickedcss file and inserted it in visual studio code. Next, I copied a class and pasted it in an element class. Luckly it worked! Also the floater made perfect sense to the first heading, it is a decent introduction to the site -->
             <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacus dui, dapibus in odio vel, tincidunt efficitur lacus. Aliquam vitae sem sed quam faucibus tincidunt vel eget tellus. Ut pulvinar a ex a condimentum. Nam est quam, sollicitudin tempor congue eu, convallis at nisi. </p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start">
               <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
@@ -66,11 +67,13 @@
 
     <section class="bg-dark text-light py-5">
       <div class="container px-4">
-        <h2 class="pb-2 border-bottom">Theme colors</h2>
+        <h2 class="pb-2 border-bottom barrelRoll">Theme colors</h2>
+        <!-- I thought about what feature would complement the second heading (h2) and I chose barrelRoll. -->
         <div class="row g-4 py-3 row-cols-1 row-cols-lg-3">
           <div class="col d-flex align-items-start mb-3">
             <div>
-              <h3>Primary</h3>
+              <h3 class="shake">Primary</h3>
+              <!-- For h3, I thought of adding a shaking feature to each third heading. Just for a fun experiement. -->
               <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
               <a href="#" class="btn btn-primary">
                 Primary button
@@ -79,7 +82,7 @@
           </div>
           <div class="col d-flex align-items-start mb-3">
             <div>
-              <h3>Secondary</h3>
+              <h3 class="shake">Secondary</h3>
               <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
               <a href="#" class="btn btn-secondary">
                 Secondary button
@@ -88,7 +91,7 @@
           </div>
           <div class="col d-flex align-items-start mb-3">
             <div>
-              <h3>Success</h3>
+              <h3 class="shake">Success</h3>
               <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
               <a href="#" class="btn btn-success">
                 Success button
@@ -97,7 +100,7 @@
           </div>
           <div class="col d-flex align-items-start mb-3">
             <div>
-              <h3>Info</h3>
+              <h3 class="shake">Info</h3>
               <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
               <a href="#" class="btn btn-info">
                 Info button
@@ -106,7 +109,7 @@
           </div>
           <div class="col d-flex align-items-start mb-3">
             <div>
-              <h3>Warning</h3>
+              <h3 class="shake">Warning</h3>
               <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
               <a href="#" class="btn btn-warning">
                 Warning button
@@ -115,7 +118,7 @@
           </div>
           <div class="col d-flex align-items-start mb-3">
             <div>
-              <h3>Danger</h3>
+              <h3 class="shake">Danger</h3>
               <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and probably just keep going until we run out of words.</p>
               <a href="#" class="btn btn-danger">
                 Danger button
